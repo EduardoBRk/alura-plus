@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --cor-text-primary: #FFFFFF;
+    --cor-text-secondary: #C0C0C0;
+    --cor-botao-bg: #167BF7;
+    --cor-bg-primary: #00030C;
+    --font-primary: "Inter", sans-serif;
+}
+
+body {
+    background-color: var(--cor-bg-primary);
+    color: var(--cor-text-primary);
+    font-family: var(--font-primary);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.section-main {
+    background-image: url("/assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.conteiner {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+
+.title-main {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.conteiner__botao {
+    display: block;
+    background-color: var(--cor-botao-bg);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--cor-text-primary);
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.botao_secundary {
+    background-color: transparent;
+    border: 2px solid var(--cor-text-primary);
+    padding: 1em;
+    color: var(--cor-text-primary);
+    text-decoration: none;
+}
+
+.texto-aviso {
+    font-size: 0.75rem;
+    color: var(--cor-text-secondary);
+}
+
+.conteiner__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.conteiner__caixa{
+    margin: 0 3em;
+    padding: 2em;
+
+}
+
+.secundary__imagem{
+    width: 80%;
+}
+
+.section-secundary {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.titulo__descricao{
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--cor-text-primary);
+    margin-bottom: 0.3em;
+}
+
+.texto__descricao{
+    color: var(--cor-text-secondary);
+    
+}
+
+.secundary__botao{
+    display: inline-block;
+    background-color: var(--cor-botao-bg);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--cor-text-primary);
+    text-decoration: none;
+    margin-top: 1em;
+}
+
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos-lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.dispositivo-titulo{
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--cor-text-primary);
+}
+
+.lista-item{
+    font-size: 2em;
+    font-weight: 700;
+    color: var(--cor-text-primary);
+}
+
+.rodape{
+    margin: 4em 0;
+    padding: 0 6em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.7em;
+}
+
+.rodape__logo{
+    margin-top: 1.7em;
+}
+
+.lista-rodape{
+    display: flex;
+    gap: 1em;
+}
+
+.lista__link{
+    color: var(--cor-text-primary);
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.rodape__texto{
+    text-align: center;
+    font-size: 0.875em;
+    color: var(--cor-text-secondary);
+}
